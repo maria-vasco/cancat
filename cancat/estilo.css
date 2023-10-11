@@ -1,0 +1,153 @@
+body {
+    background-image: url(multimedia/fondo1.jpg);
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+    background-position:center;
+    background-size: cover;
+
+
+}
+
+/* font */
+
+@font-face {
+    font-family: Holyfat;
+    src: url(./multimedia/Holyfat.ttf);
+}
+
+/* logo y primera parte*/
+.logo{ 
+width: 15rem;
+height: 10rem;
+}
+
+
+/* botones del menu */
+.menu{
+    background-color: #ffffff;
+    font-family: Holyfat;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 2rem;
+    margin: 5px;
+    color: #4cda00;
+    text-decoration: none;
+
+}
+.menu:hover{
+ background-color: #4CDA00;
+ color: azure;
+}
+
+/* primeros auxilios */
+.titulo{
+    font-size: 40px;
+    color: #4cda00;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+/* para mascotas */
+.tituloo{
+    font-size: 40px;
+    color: #4cda00;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+/* primer parrafo en azul  */
+.parrafouno{
+    color: #00a7da;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* boton de inscribete ya  */
+.ovalo {
+    background: #4CDA00;
+    width:12rem;
+    height: 5rem;
+    font-family: holyfat;
+    border-radius: 50%;
+    border: none;
+    font-size: 2em;
+    color: azure;
+}
+
+
+/* segunda parte - titulo objectivo  */
+.titulo1{
+    font-family: holyfat;
+    color: #4cda00;
+    
+}
+
+.fondo{
+    background-color: #00a7da10;
+    border-radius: 3rem;
+    
+    
+}
+/* segunda parte - parrafo dos  */
+.parrafo2{
+    border-radius: 1rem;
+    background: #4CDA00;
+    color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+
+/*  ( carrusel ) tercera parte - titulo de tema   */
+
+.titulouno{
+    color: #4cda00;
+    font-family: holyfat;
+    
+}
+.fondodos{
+    background-color: #00a7da10;
+    border-radius: 3rem;
+
+    
+    
+}
+
+/*  ( carrusel ) tercera parte - indicaciones   */
+.indicaciones{
+    border-radius: 1rem;
+    background: #4CDA00;
+    left:10rem;
+    top:0rem; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+/*   carrusel de la tercera parte   
+.carouselslide{
+
+}*/
+
+/* cuarta parte - titulo de beneficios  */
+.beneficios{
+    background-color: transparent;
+
+}
+
+/* quinta parte - (imagen de encuenta) titulo de encuesta */
+.encuesta{
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    flex-direction: column;
+    
+}
+/* quinta parte -  parrafo de la encuesta */
+.encuesta1{
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+/* sexta  parte -  parrafo de la encuesta */
+.foter{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(240, 255, 255, 0.18);
+}
